@@ -1,3 +1,4 @@
+Miguel Angel Cabral Ramírez A01226132
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -28,3 +29,5 @@ La segunda manera de llegar a la solución es la siguiente:
 
 1. Crear una hash table que guarde las sumas de todas las combinaciones posibles.
 2. Una vez que se hace la hash table, simplemente se ingresa la solución final y regresa el índice en el que se encuentran los valores.
+
+
