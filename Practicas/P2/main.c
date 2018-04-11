@@ -10,7 +10,7 @@ typedef struct{
     char *operationName;
     int(* operation) (int, int);
 } Operation;
-
+ 
 int main(){
     char operation[MAX_STRING_LENGTH];
     int operatorOne, operatorTwo;

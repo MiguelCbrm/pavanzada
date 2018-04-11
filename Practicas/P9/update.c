@@ -9,13 +9,12 @@ typedef struct s{
 } Student;
 
 int main (int argc, char **argv){
-    char *dbName = "student.dat";
-    Student pAvanzada[10];
-    FILE *data = fopen(dbName, "rb"); 
     char *search = argv[1];
     char *update = argv [2];
+    char *dbName = "student.dat";
     Student myStudent;
-    
+
+    FILE *data = fopen(dbName, "r+b");     
     while(1){
 
         fread(&myStudent, sizeof(Student), 1, data);
